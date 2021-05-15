@@ -213,7 +213,8 @@ body {
     .body-wrapper .testimonial-wrap .testi-left .w-video {
       position: relative;
       width: fit-content;
-      padding-top: 6rem; }
+      padding-top: 6rem;
+      width: 90px; }
       .body-wrapper .testimonial-wrap .testi-left .w-video a {
         font-family: "Dynamic-sailec-medium", sans-serif;
         color: #fff; }
