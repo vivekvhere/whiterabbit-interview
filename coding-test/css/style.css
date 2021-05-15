@@ -2,47 +2,52 @@
 /*----COMMON STYLES----*/
 /*----CUSTOM FONTS USED----*/
 @font-face {
-  font-family: 'Dynamic-sailec';
+  font-family: "Dynamic-sailec";
   src: url("../font/Type Dynamic - Sailec.otf"); }
 @font-face {
-  font-family: 'Dynamic-sailec-black';
+  font-family: "Dynamic-sailec-black";
   src: url("../font/Type Dynamic - Sailec Black.otf"); }
 @font-face {
-  font-family: 'Dynamic-sailec-bold';
+  font-family: "Dynamic-sailec-bold";
   src: url("../font/Type Dynamic - Sailec Bold.otf"); }
 @font-face {
-  font-family: 'Dynamic-sailec-hairline';
+  font-family: "Dynamic-sailec-hairline";
   src: url("../font/Type Dynamic - Sailec Hairline.otf"); }
 @font-face {
-  font-family: 'Dynamic-sailec-light';
+  font-family: "Dynamic-sailec-light";
   src: url("../font/Type Dynamic - Sailec Light.otf"); }
 @font-face {
-  font-family: 'Dynamic-sailec-medium';
+  font-family: "Dynamic-sailec-medium";
   src: url("../font/Type Dynamic - Sailec Medium.otf"); }
 @font-face {
-  font-family: 'Dynamic-sailec-thin';
+  font-family: "Dynamic-sailec-thin";
   src: url("../font/Type Dynamic - Sailec Thin.otf"); }
 /*----CUSTOM FONTS USED END----*/
 /*--Colors and properties declared---*/
 /*--Colors and properties declared end---*/
-h1, h2, h3, h4, h5, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
   margin: 0; }
 
 a:hover {
   text-decoration: none; }
 
 :hover {
-  transition: transform .2s; }
+  transition: transform 0.2s; }
 
 button:focus {
   box-shadow: none; }
 
 button {
-  transition: transform .2s; }
+  transition: transform 0.2s; }
 
 button:hover {
   transform: translate(0px, -5px);
-  transition: transform .2s; }
+  transition: transform 0.2s; }
 
 body {
   font-family: "Dynamic-sailec", sans-serif;
@@ -99,7 +104,7 @@ body {
       flex-direction: column; }
       .body-wrapper .banner-wrap .banner-w-100 .banner-left p.text-spaced {
         font-weight: 500;
-        color: #D2D2D2;
+        color: #d2d2d2;
         letter-spacing: 10px;
         padding-bottom: 23px;
         font-size: 14px; }
@@ -112,17 +117,17 @@ body {
           display: block; }
       .body-wrapper .banner-wrap .banner-w-100 .banner-left p {
         font-size: 22px;
-        color: #D2D2D2; }
+        color: #d2d2d2; }
       .body-wrapper .banner-wrap .banner-w-100 .banner-left .banner-left-btns {
         padding-top: 98px; }
         .body-wrapper .banner-wrap .banner-w-100 .banner-left .banner-left-btns button {
-          background: #C7E1BF;
+          background: #c7e1bf;
           color: #102522;
           border-radius: 48px;
           width: 161px;
           height: 58px;
           padding: 0;
-          transition: transform .2s; }
+          transition: transform 0.2s; }
         .body-wrapper .banner-wrap .banner-w-100 .banner-left .banner-left-btns button:last-child {
           margin-left: 52px; }
     .body-wrapper .banner-wrap .banner-w-100 .banner-right {
@@ -152,7 +157,7 @@ body {
       height: 61px;
       border-radius: 31px;
       margin-left: 177px;
-      transition: transform .2s; }
+      transition: transform 0.2s; }
       .body-wrapper .products-wrap .products-head button img {
         padding-left: 31px; }
     .body-wrapper .products-wrap .products-head button:hover {
@@ -162,7 +167,7 @@ body {
     text-align: center; }
     .body-wrapper .products-wrap .products-each img {
       transform: scale(1);
-      transition: transform .2s; }
+      transition: transform 0.2s; }
     .body-wrapper .products-wrap .products-each .details-circle {
       background: #102421;
       width: 82px;
@@ -183,16 +188,16 @@ body {
       color: #151442;
       margin: 34px 0 25px; }
     .body-wrapper .products-wrap .products-each p.p-price {
-      color: #8F9095;
+      color: #8f9095;
       margin-bottom: 26px; }
     .body-wrapper .products-wrap .products-each p.p-desc {
-      color: #8F9095;
+      color: #8f9095;
       font-size: 16px;
       line-height: 149.5%;
       font-family: "Dynamic-sailec-medium", sans-serif; }
   .body-wrapper .products-wrap .products-each:hover img {
     transform: scale(1.05);
-    transition: transform .2s; }
+    transition: transform 0.2s; }
 .body-wrapper .testimonial-wrap {
   background: url("../images/clients-bg.png") no-repeat center;
   background-size: cover;
@@ -213,7 +218,7 @@ body {
         font-family: "Dynamic-sailec-medium", sans-serif;
         color: #fff; }
       .body-wrapper .testimonial-wrap .testi-left .w-video :after {
-        content: '';
+        content: "";
         height: 2px;
         background: #fff;
         position: absolute;
@@ -221,14 +226,14 @@ body {
         bottom: 0;
         width: 100%; }
   .body-wrapper .testimonial-wrap .testi-in {
-    width: 799px;
+    width: 100%;
     margin-left: auto;
-    background: #FFF3F3;
+    background: #fff3f3;
     padding: 5rem 3rem; }
     .body-wrapper .testimonial-wrap .testi-in h3 {
       font-size: 50px;
       font-family: "Dynamic-sailec-medium", sans-serif;
-      color: #342B42;
+      color: #342b42;
       margin: 30px 40px 0 40px; }
     .body-wrapper .testimonial-wrap .testi-in span.right-quote img {
       -webkit-transform: scaleX(-1);
