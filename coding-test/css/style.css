@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap");
+/*----COMMON STYLES----*/
+/*----CUSTOM FONTS USED----*/
+@font-face {
+  font-family: 'Dynamic-sailec';
+  src: url("../font/Type Dynamic - Sailec.otf"); }
+@font-face {
+  font-family: 'Dynamic-sailec-black';
+  src: url("../font/Type Dynamic - Sailec Black.otf"); }
+@font-face {
+  font-family: 'Dynamic-sailec-bold';
+  src: url("../font/Type Dynamic - Sailec Bold.otf"); }
+@font-face {
+  font-family: 'Dynamic-sailec-hairline';
+  src: url("../font/Type Dynamic - Sailec Hairline.otf"); }
+@font-face {
+  font-family: 'Dynamic-sailec-light';
+  src: url("../font/Type Dynamic - Sailec Light.otf"); }
+@font-face {
+  font-family: 'Dynamic-sailec-medium';
+  src: url("../font/Type Dynamic - Sailec Medium.otf"); }
+@font-face {
+  font-family: 'Dynamic-sailec-thin';
+  src: url("../font/Type Dynamic - Sailec Thin.otf"); }
+/*----CUSTOM FONTS USED END----*/
+/*--Colors and properties declared---*/
+/*--Colors and properties declared end---*/
+h1, h2, h3, h4, h5, p {
+  margin: 0; }
+
+a:hover {
+  text-decoration: none; }
+
+:hover {
+  transition: transform .2s; }
+
+button:focus {
+  box-shadow: none; }
+
+button {
+  transition: transform .2s; }
+
+button:hover {
+  transform: translate(0px, -5px);
+  transition: transform .2s; }
+
+body {
+  font-family: "Dynamic-sailec", sans-serif;
+  background: #fff;
+  font-size: 14px; }
+
+/*----COMMON STYLES END----*/
+/*----CUSTOM STYLES----*/
+.body-wrapper .banner-wrap {
+  width: 100%;
+  position: relative;
+  height: 100vh; }
+  .body-wrapper .banner-wrap .navbar-wrap {
+    position: absolute;
+    width: 100%;
+    padding: 1.5% 5% 1% 5%;
+    z-index: 1; }
+    .body-wrapper .banner-wrap .navbar-wrap .navbar {
+      padding: 0; }
+    .body-wrapper .banner-wrap .navbar-wrap .navbar-brand {
+      padding: 0; }
+    .body-wrapper .banner-wrap .navbar-wrap .nav-link {
+      padding: 0 1rem;
+      font-family: "Dynamic-sailec-medium", sans-serif;
+      color: #151442; }
+    .body-wrapper .banner-wrap .navbar-wrap .nav-menu-seperate {
+      padding-right: 2rem; }
+    .body-wrapper .banner-wrap .navbar-wrap .badge-light {
+      color: #fff;
+      background-color: #151442;
+      height: 19px;
+      width: 19px;
+      border-radius: 50%;
+      line-height: 1.533;
+      font-size: 12px;
+      font-family: "Dynamic-sailec", sans-serif;
+      position: relative;
+      top: 3px;
+      left: -8px; }
+  .body-wrapper .banner-wrap .banner-w-100 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%; }
+    .body-wrapper .banner-wrap .banner-w-100 .banner-left {
+      position: relative;
+      width: 60%;
+      background: #102421;
+      color: #fff;
+      padding: 6% 10%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+      .body-wrapper .banner-wrap .banner-w-100 .banner-left p.text-spaced {
+        font-weight: 500;
+        color: #D2D2D2;
+        letter-spacing: 10px;
+        padding-bottom: 23px;
+        font-size: 14px; }
+      .body-wrapper .banner-wrap .banner-w-100 .banner-left h2 {
+        font-family: "Dynamic-sailec-bold", sans-serif;
+        font-size: 88px;
+        line-height: 106.04px;
+        margin-bottom: 46px; }
+        .body-wrapper .banner-wrap .banner-w-100 .banner-left h2 span {
+          display: block; }
+      .body-wrapper .banner-wrap .banner-w-100 .banner-left p {
+        font-size: 22px;
+        color: #D2D2D2; }
+      .body-wrapper .banner-wrap .banner-w-100 .banner-left .banner-left-btns {
+        padding-top: 98px; }
+        .body-wrapper .banner-wrap .banner-w-100 .banner-left .banner-left-btns button {
+          background: #C7E1BF;
+          color: #102522;
+          border-radius: 48px;
+          width: 161px;
+          height: 58px;
+          padding: 0;
+          transition: transform .2s; }
+        .body-wrapper .banner-wrap .banner-w-100 .banner-left .banner-left-btns button:last-child {
+          margin-left: 52px; }
+    .body-wrapper .banner-wrap .banner-w-100 .banner-right {
+      width: 40%;
+      margin: 1% 5% 0 0;
+      position: absolute;
+      right: 0; }
+      .body-wrapper .banner-wrap .banner-w-100 .banner-right img {
+        margin: 0 0 0 0;
+        width: 100%;
+        height: 80%;
+        object-fit: cover; }
+.body-wrapper .products-wrap {
+  padding: 10%; }
+  .body-wrapper .products-wrap .products-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem; }
+    .body-wrapper .products-wrap .products-head h2 {
+      color: #151442;
+      font-size: 80px;
+      font-family: "Dynamic-sailec-medium", sans-serif; }
+    .body-wrapper .products-wrap .products-head button {
+      border: 1px solid #102421;
+      width: 188px;
+      height: 61px;
+      border-radius: 31px;
+      margin-left: 177px;
+      transition: transform .2s; }
+      .body-wrapper .products-wrap .products-head button img {
+        padding-left: 31px; }
+    .body-wrapper .products-wrap .products-head button:hover {
+      transform: translate(5px, 0px); }
+  .body-wrapper .products-wrap .products-each {
+    position: relative;
+    text-align: center; }
+    .body-wrapper .products-wrap .products-each img {
+      transform: scale(1);
+      transition: transform .2s; }
+    .body-wrapper .products-wrap .products-each .details-circle {
+      background: #102421;
+      width: 82px;
+      height: 82px;
+      border-radius: 50%;
+      color: #fff;
+      position: absolute;
+      top: 65px;
+      right: 0;
+      display: flex;
+      align-items: center;
+      font-family: "Dynamic-sailec-medium", sans-serif; }
+      .body-wrapper .products-wrap .products-each .details-circle a {
+        color: #fff; }
+    .body-wrapper .products-wrap .products-each h3 {
+      font-family: "Dynamic-sailec-medium", sans-serif;
+      font-size: 36px;
+      color: #151442;
+      margin: 34px 0 25px; }
+    .body-wrapper .products-wrap .products-each p.p-price {
+      color: #8F9095;
+      margin-bottom: 26px; }
+    .body-wrapper .products-wrap .products-each p.p-desc {
+      color: #8F9095;
+      font-size: 16px;
+      line-height: 149.5%;
+      font-family: "Dynamic-sailec-medium", sans-serif; }
+  .body-wrapper .products-wrap .products-each:hover img {
+    transform: scale(1.05);
+    transition: transform .2s; }
+.body-wrapper .testimonial-wrap {
+  background: url("../images/clients-bg.png") no-repeat center;
+  background-size: cover;
+  color: #fff;
+  padding: 6% 5%; }
+  .body-wrapper .testimonial-wrap .testi-left {
+    display: flex;
+    justify-content: center;
+    flex-direction: column; }
+    .body-wrapper .testimonial-wrap .testi-left h2 {
+      font-size: 78px;
+      font-family: "Dynamic-sailec-medium", sans-serif; }
+    .body-wrapper .testimonial-wrap .testi-left .w-video {
+      position: relative;
+      width: fit-content;
+      padding-top: 6rem; }
+      .body-wrapper .testimonial-wrap .testi-left .w-video a {
+        font-family: "Dynamic-sailec-medium", sans-serif;
+        color: #fff; }
+      .body-wrapper .testimonial-wrap .testi-left .w-video :after {
+        content: '';
+        height: 2px;
+        background: #fff;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%; }
+  .body-wrapper .testimonial-wrap .testi-in {
+    width: 799px;
+    margin-left: auto;
+    background: #FFF3F3;
+    padding: 5rem 3rem; }
+    .body-wrapper .testimonial-wrap .testi-in h3 {
+      font-size: 50px;
+      font-family: "Dynamic-sailec-medium", sans-serif;
+      color: #342B42;
+      margin: 30px 40px 0 40px; }
+    .body-wrapper .testimonial-wrap .testi-in span.right-quote img {
+      -webkit-transform: scaleX(-1);
+      -moz-transform: scaleX(-1);
+      -o-transform: scaleX(-1);
+      transform: scaleX(-1);
+      filter: FlipH;
+      -ms-filter: "FlipH"; }
+    .body-wrapper .testimonial-wrap .testi-in .author {
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 6rem;
+      margin-top: 2rem; }
+      .body-wrapper .testimonial-wrap .testi-in .author p {
+        font-family: "Dynamic-sailec-medium", sans-serif;
+        color: #454545;
+        font-size: 22px; }
+        .body-wrapper .testimonial-wrap .testi-in .author p span {
+          display: block;
+          font-size: 16px;
+          font-family: "Dynamic-sailec", sans-serif; }
+
+/*----CUSTOM STYLES END----*/
+/*---------------------*/
+/*----MEDIA QUERIES----*/
+/*---------------------*/
+@media (max-width: 1024px) {
+  .body-wrapper button.navbar-toggler {
+    background: #fff; }
+  .body-wrapper .navbar-nav {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px; }
+    .body-wrapper .navbar-nav .nav-item {
+      padding-bottom: 1rem; }
+  .body-wrapper .banner-wrap {
+    position: initial;
+    height: 100%; }
+    .body-wrapper .banner-wrap .navbar-wrap {
+      position: initial;
+      background: #102421;
+      padding: 10px 5%; }
+    .body-wrapper .banner-wrap .banner-w-100 {
+      display: block; }
+      .body-wrapper .banner-wrap .banner-w-100 .banner-left {
+        width: 100%; }
+        .body-wrapper .banner-wrap .banner-w-100 .banner-left h2 {
+          font-size: 40px;
+          line-height: normal; }
+        .body-wrapper .banner-wrap .banner-w-100 .banner-left .banner-left-btns {
+          padding-top: 25px;
+          display: flex; }
+          .body-wrapper .banner-wrap .banner-w-100 .banner-left .banner-left-btns button {
+            height: auto;
+            width: auto;
+            padding: 10px; }
+          .body-wrapper .banner-wrap .banner-w-100 .banner-left .banner-left-btns button:last-child {
+            margin-left: 10px; }
+      .body-wrapper .banner-wrap .banner-w-100 .banner-right {
+        display: none; }
+  .body-wrapper .products-wrap .products-head {
+    display: block;
+    text-align: center; }
+    .body-wrapper .products-wrap .products-head h2 {
+      font-size: 40px; }
+    .body-wrapper .products-wrap .products-head button {
+      margin-left: 0;
+      margin-top: 20px; }
+  .body-wrapper .testimonial-wrap .testi-left h2 {
+    font-size: 40px; }
+  .body-wrapper .testimonial-wrap .testi-left .w-video {
+    padding-top: 2rem; }
+  .body-wrapper .testimonial-wrap .testi-in {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 3rem; }
+    .body-wrapper .testimonial-wrap .testi-in h3 {
+      font-size: 22px; }
+    .body-wrapper .testimonial-wrap .testi-in .author {
+      margin-right: 0;
+      margin-top: 1rem; } }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .body-wrapper .banner-wrap .banner-w-100 {
+    display: flex; }
+    .body-wrapper .banner-wrap .banner-w-100 .banner-left {
+      width: 65%; }
+      .body-wrapper .banner-wrap .banner-w-100 .banner-left h2 {
+        font-size: 40px;
+        line-height: normal; }
+    .body-wrapper .banner-wrap .banner-w-100 .banner-right {
+      display: block;
+      width: 35%; }
+  .body-wrapper .products-wrap .products-each h3 {
+    font-size: 25px; } }
